@@ -1,0 +1,10 @@
+// change the theme
+$theme-colors: (
+  "primary": #0D7A87,
+  "danger": #ff4136
+);
+
+$card-border-radius: 1em;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
