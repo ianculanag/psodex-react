@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Common/Navbar';
 import Sidebar from './Common/Sidebar';
 import AccountContainer from './Account/AccountContainer';
+import TransactionContainer from './Transaction/TransactionContainer';
 // import { Container } from 'react-bootstrap';
 
 const Dashboard = () => {
@@ -10,6 +11,7 @@ const Dashboard = () => {
     <div className="vh-100 w-100">
       <Navbar></Navbar>
     <AccountContainer></AccountContainer>
+    <TransactionContainer></TransactionContainer>
     </div>
   </div>;
 };

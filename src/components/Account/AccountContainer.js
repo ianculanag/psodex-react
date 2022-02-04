@@ -7,7 +7,7 @@ const AccountContainer = () => {
 
             {/* Card Component Loop */}
             <Col lg="4" md="6" s xs="12">
-                <Card className="shadow">
+                <Card border="light" className="shadow">
                     <Card.Body className="p-4">
                         <div className="row">
                             <div className="col-6">
@@ -28,7 +28,7 @@ const AccountContainer = () => {
 
             {/* Card Component Loop */}
             <Col lg="4" md="6" s xs="12">
-                <Card className="shadow">
+                <Card border="light" className="shadow">
                     <Card.Body className="p-4">
                         <div className="row">
                             <div className="col-6">
@@ -49,7 +49,7 @@ const AccountContainer = () => {
 
             {/* Card Component Loop */}
             <Col lg="4" md="6" s xs="12">
-                <Card className="shadow">
+                <Card border="light" className="shadow">
                     <Card.Body className="p-4">
                         <div className="row">
                             <div className="col-6">
