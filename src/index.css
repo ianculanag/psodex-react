@@ -3,3 +3,19 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.logo {
+	font-family: 'MuseoModerno', cursive;
+	letter-spacing: -3px;
+	color: #777373;
+	display: inline-block;
+	font-size: 1.75em !important;
+}
+
+.logo::first-letter {
+	color: #12ADBF;
+}
+
+.avatar {
+    width: 2.5em;
+}
