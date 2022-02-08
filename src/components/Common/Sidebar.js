@@ -7,7 +7,7 @@ import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
 
 const Sidebar = () => {
     return <div style={{ width: '6em' }} className="vh-100 shadow bg-white d-none d-sm-block">
-        <ul className="list-group text-center d-flex h-100"  style={{ 'padding-top': '4em' }}>
+        <ul className="list-group text-center d-flex h-100"  style={{ paddingTop: '4em' }}>
             <li className="p-2 text-primary">
                 <div><HomeOutlinedIcon fontSize="large"></HomeOutlinedIcon></div>
                 <p className="fs-6 mb-1">Dashboard</p>

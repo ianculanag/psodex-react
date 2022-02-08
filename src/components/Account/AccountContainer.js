@@ -49,7 +49,7 @@ class AccountContainer extends Component {
                 <Row className="g-4">
 
                     {this.state.accounts.map((account =>
-                        <Col lg="4" md="6" s xs="12">
+                        <Col lg="4" md="6" s xs="12" key={account.accountId}>
                             <Card border="light" className="shadow">
                                 <Card.Body className="p-4">
                                     <div className="row">

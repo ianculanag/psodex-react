@@ -24,7 +24,7 @@ class NavBar extends Component {
         <li className="nav-item m-2">
           <div className="">
           <Link to={"logout"} className="nav-link" onClick={this.logout}>
-            <img className="avatar rounded-circle" src="https://lh3.googleusercontent.com/a-/AOh14Gj6i77q_zOAKx0WahOZmBujTWrtBZFFOt4f6z35_w=s288-p-rw-no" alt="profile-pic" />
+            <img className="avatar rounded-circle" src="https://media-exp1.licdn.com/dms/image/C5603AQEX9Ye4cYFZsg/profile-displayphoto-shrink_800_800/0/1638815039223?e=1649894400&v=beta&t=bVRM0STQW5FnM7P3onSAe8FQn-sTzu8bOqWrsfVNBlo" alt="profile-pic" />
             </Link>
           </div>
         </li>
