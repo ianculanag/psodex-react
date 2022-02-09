@@ -6,9 +6,9 @@ import TransactionContainer from './Transaction/TransactionContainer';
 // import { Container } from 'react-bootstrap';
 
 const Dashboard = () => {
-  return <div className="m-0 p-0 bg-light vw-100 d-flex align-items-stretch">
+  return <div className="m-0 p-0 vw-100 d-flex align-items-stretch">
     <Sidebar></Sidebar>
-    <div className="vh-100 w-100">
+    <div className="w-100 mainDiv bg-light">
       <Navbar></Navbar>
     <AccountContainer></AccountContainer>
     <TransactionContainer></TransactionContainer>

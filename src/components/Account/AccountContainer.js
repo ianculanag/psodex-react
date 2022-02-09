@@ -61,7 +61,7 @@ class AccountContainer extends Component {
                                         <div className="col-6 d-flex text-end align-items-end flex-row-reverse text-nowrap ">
                                             <div className="align-text-bottom">
                                                 <small className="d-inline me-1">PHP</small>
-                                                <h4 className="mb-1 d-inline peso-format fw-bold">{account.balance.split('.')[0]}</h4><small className="decimal-value fw-bold">.{account.balance.split('.')[1]}</small>
+                                                <h4 className="mb-1 d-inline peso-format fw-bolder">{account.balance.split('.')[0]}</h4><small className="decimal-value fw-bolder">.{account.balance.split('.')[1]}</small>
                                             </div>
                                         </div>
                                     </div>

@@ -46,7 +46,7 @@ class Register extends Component {
                     <Col xs="12" lg="6">
                         <Card className="shadow">
                             <Card.Body className="p-lg-5 p-4">
-                                <h4 className="card-title mb-4 fw-bold">Get started with Psodex!</h4>
+                                <h4 className="card-title mb-4 fw-bolder">Get started with Psodex!</h4>
                                 <p className="text-muted small mb-5">Have a centralized place to record all your transactions, expenses, savings, and investments all in one place.</p>
                                 <Form>
                                     <div className="form-floating mb-3">
@@ -77,7 +77,7 @@ class Register extends Component {
 
                     <Col xs="12" lg="6" className="ms-xl-auto px-lg-4 text-center text-primary">
                         <img className="img-fluid mb-4" width="300" src="https://d19m59y37dris4.cloudfront.net/bubbly/1-2/img/drawkit-illustration.svg" alt="" style={{ transform: 'rotate(10deg)' }} />
-                        <h1 className="mb-4 fw-bold">Start taking full <br className="d-none d-lg-inline" />control of your money</h1>
+                        <h1 className="mb-4 fw-bolder">Start taking full <br className="d-none d-lg-inline" />control of your money</h1>
                         <p className="text-muted">"It's not about how much money you make, but how much money you can keep." - some rich dude in a money seminar.</p>
                     </Col>
                 </Row>

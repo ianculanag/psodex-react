@@ -27,3 +27,23 @@
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+.sidebar {
+    position: fixed;
+}
+
+.mainDiv {
+    margin-left: 6em;
+}
+
+@media screen and (max-width: 575px) {
+    .mainDiv {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .small-currency {
+        font-size: 1em !important;
+    }
+}
