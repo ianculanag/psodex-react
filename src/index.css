@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    background-color: #f8f9fa !important;
+}
+
 .logo {
 	font-family: 'MuseoModerno', cursive;
 	letter-spacing: -3px;

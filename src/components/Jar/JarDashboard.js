@@ -29,7 +29,7 @@ class JarDashboard extends Component {
 
     render() {
         return (
-            <Col id="jarContainer" lg="5" xl="5">
+            <Col id="jarContainer" lg="4" xl="4">
                 {this.state.jars.map((jar =>
                     <JarPill
                         id={jar.jarId}

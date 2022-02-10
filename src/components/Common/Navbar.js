@@ -9,6 +9,7 @@ import {logoutUser} from '../../services/index';
 class NavBar extends Component {
   logout = () => {
       this.props.logoutUser();
+      window.location.href='/';
   }
 
   render() {

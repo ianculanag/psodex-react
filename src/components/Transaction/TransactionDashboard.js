@@ -31,7 +31,7 @@ class TransactionDashboard extends Component {
 
     render() {
         return (
-            <Col id="transactionContainer" lg="7" xl="7">
+            <Col id="transactionContainer" lg="8" xl="8">
                 <Card border="light" className="shadow">
                     <Card.Header className="p-4 bg-white shadow-sm small text-muted">
                         TRANSACTION HISTORY
@@ -46,7 +46,8 @@ class TransactionDashboard extends Component {
                                 outboundAccountId={transaction.outboundAccountId}
                                 inboundAccountName={transaction.inboundAccountName}
                                 outboundAccountName={transaction.outboundAccountName}
-                                amount={transaction.transactionAmount}>
+                                amount={transaction.transactionAmount}
+                                type={transaction.transactionType}>
                             </TransactionPreview>
                         ))
                         }
